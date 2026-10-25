@@ -1,0 +1,58 @@
+==========================================
+ CITIZEN COMPLAINT MANAGEMENT SYSTEM
+==========================================
+1. Add complaint
+2. Display all complaints
+3. Update complaint status
+4. Exit
+==========================================
+Enter your choice: 2
+
+========== ALL COMPLAINTS ==========
+Complaint ID: C1001
+Citizen: Mohamed Kamara
+Community: Freetown
+Category: Road Damage
+Description: A large pothole is affecting vehicles and pedestrians.
+Status: Pending
+------------------------------------
+Complaint ID: C1002
+Citizen: Mariama Conteh
+Community: Kissy
+Category: Waste Management
+Description: Waste has not been collected regularly in the community.
+Status: Pending
+------------------------------------
+
+Enter your choice: 3
+
+========== UPDATE STATUS ==========
+Enter complaint ID: C1001
+1. Pending
+2. In Progress
+3. Resolved
+Choose new status: 2
+Complaint status updated successfully.
+
+Enter your choice: 2
+
+========== ALL COMPLAINTS ==========
+Complaint ID: C1001
+Citizen: Mohamed Kamara
+Community: Freetown
+Category: Road Damage
+Description: A large pothole is affecting vehicles and pedestrians.
+Status: In Progress
+------------------------------------
+
+Enter your choice: 1
+
+========== ADD COMPLAINT ==========
+Enter citizen ID: CT003
+Enter citizen name: Abdul Sesay
+Enter community: Lumley
+Enter complaint category: Street Lighting
+Enter complaint description: Several street lights are not working.
+
+Complaint added successfully.
+Your complaint ID is: C1003
